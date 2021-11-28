@@ -4,24 +4,11 @@
   
     
     <entry>
-      <title>text</title>
-      <link href="/2021/11/29/text/"/>
-      <url>/2021/11/29/text/</url>
-      
-        <content type="html"><![CDATA[<h1 id="texty"><a href="#texty" class="headerlink" title="texty"></a>texty</h1>]]></content>
-      
-      
-      
-    </entry>
-    
-    
-    
-    <entry>
       <title>Java-variable</title>
-      <link href="/2021/11/28/java-variable/"/>
-      <url>/2021/11/28/java-variable/</url>
+      <link href="/2021/11/29/java-variable/"/>
+      <url>/2021/11/29/java-variable/</url>
       
-        <content type="html"><![CDATA[<h1 id="Java的变量使用细节"><a href="#Java的变量使用细节" class="headerlink" title="Java的变量使用细节"></a>Java的变量使用细节</h1><p>变量表示内存中的一个存储区域[不同的变量，类型不同，占用的空间大小不同]；</p><p>该区域有自己的名称[变量名]和类型[数据类型]；</p><p>变量必须先声明后使用，即有顺序；</p><p>该区域的数据/值可以在同一类型范围内不断变化；</p><p>变量在同一作用域内不能重名；</p><p>变量 = 变量名 + 值 + 数据类型[变量三要素]；  </p><h1 id="Java的数据类型"><a href="#Java的数据类型" class="headerlink" title="Java的数据类型"></a>Java的数据类型</h1><p><img src="/2021/11/28/java-variable/1.png"></p><h1 id="Java中类的组织形式"><a href="#Java中类的组织形式" class="headerlink" title="Java中类的组织形式"></a>Java中类的组织形式</h1><p><img src="/2021/11/28/java-variable/2.png"></p><h1 id="字符类型使用细节"><a href="#字符类型使用细节" class="headerlink" title="字符类型使用细节"></a>字符类型使用细节</h1><p><img src="/2021/11/28/java-variable/3.png"></p><h1 id="自动类型转换及其细节"><a href="#自动类型转换及其细节" class="headerlink" title="自动类型转换及其细节"></a>自动类型转换及其细节</h1><p><img src="/2021/11/28/java-variable/4.png"></p><h1 id="强制类型转换及其细节"><a href="#强制类型转换及其细节" class="headerlink" title="强制类型转换及其细节"></a>强制类型转换及其细节</h1><p><img src="/2021/11/28/java-variable/5.png"></p>]]></content>
+        <content type="html"><![CDATA[<h1 id="Java的变量使用细节"><a href="#Java的变量使用细节" class="headerlink" title="Java的变量使用细节"></a>Java的变量使用细节</h1><p>变量表示内存中的一个存储区域[不同的变量，类型不同，占用的空间大小不同]；</p><p>该区域有自己的名称[变量名]和类型[数据类型]；</p><p>变量必须先声明后使用，即有顺序；</p><p>该区域的数据/值可以在同一类型范围内不断变化；</p><p>变量在同一作用域内不能重名；</p><p>变量 = 变量名 + 值 + 数据类型[变量三要素]；  </p><h1 id="Java的数据类型"><a href="#Java的数据类型" class="headerlink" title="Java的数据类型"></a>Java的数据类型</h1><p><img src="/2021/11/29/java-variable/1.png"></p><h1 id="Java中类的组织形式"><a href="#Java中类的组织形式" class="headerlink" title="Java中类的组织形式"></a>Java中类的组织形式</h1><p><img src="/2021/11/29/java-variable/2.png"></p><h1 id="字符类型使用细节"><a href="#字符类型使用细节" class="headerlink" title="字符类型使用细节"></a>字符类型使用细节</h1><p><img src="/2021/11/29/java-variable/3.png"></p><h1 id="自动类型转换及其细节"><a href="#自动类型转换及其细节" class="headerlink" title="自动类型转换及其细节"></a>自动类型转换及其细节</h1><p><img src="/2021/11/29/java-variable/4.png"></p><h1 id="强制类型转换及其细节"><a href="#强制类型转换及其细节" class="headerlink" title="强制类型转换及其细节"></a>强制类型转换及其细节</h1><p><img src="/2021/11/29/java-variable/5.png"></p>]]></content>
       
       
       
