@@ -4,6 +4,19 @@
   
     
     <entry>
+      <title>Java-operator</title>
+      <link href="/2021/12/02/java-operator/"/>
+      <url>/2021/12/02/java-operator/</url>
+      
+        <content type="html"><![CDATA[<h1 id="运算符"><a href="#运算符" class="headerlink" title="运算符"></a>运算符</h1><h2 id="算术运算符"><a href="#算术运算符" class="headerlink" title="算术运算符"></a>算术运算符</h2><h3 id="算术运算符一览"><a href="#算术运算符一览" class="headerlink" title="算术运算符一览"></a>算术运算符一览</h3><p><img src="/2021/12/02/java-operator/1.png"></p><h3 id="算术运算符使用细节"><a href="#算术运算符使用细节" class="headerlink" title="算术运算符使用细节"></a>算术运算符使用细节</h3><p><img src="/2021/12/02/java-operator/2.png"></p><h3 id="自增自减面试题"><a href="#自增自减面试题" class="headerlink" title="自增自减面试题"></a>自增自减面试题</h3><p><img src="/2021/12/02/java-operator/3.png"></p><h2 id="逻辑运算符"><a href="#逻辑运算符" class="headerlink" title="逻辑运算符"></a>逻辑运算符</h2><h3 id="逻辑运算符一览"><a href="#逻辑运算符一览" class="headerlink" title="逻辑运算符一览"></a>逻辑运算符一览</h3><p><img src="/2021/12/02/java-operator/4.png"></p><h3 id="逻辑运算符之-“短路与”-和-“逻辑与”-的区别"><a href="#逻辑运算符之-“短路与”-和-“逻辑与”-的区别" class="headerlink" title="逻辑运算符之 “短路与” 和 “逻辑与” 的区别"></a>逻辑运算符之 “短路与” 和 “逻辑与” 的区别</h3><ol><li><p>&amp;&amp; 短路与:如果第一个条件为 false，则第二个条件不会判断，最终结果为 false，效率高 </p></li><li><p>&amp;   逻辑与:不管第一个条件是否为 false，第二个条件都要判断，效率低</p></li></ol><h3 id="逻辑运算符之-“短路或”-和-“逻辑或”-的区别"><a href="#逻辑运算符之-“短路或”-和-“逻辑或”-的区别" class="headerlink" title="逻辑运算符之 “短路或” 和 “逻辑或” 的区别"></a>逻辑运算符之 “短路或” 和 “逻辑或” 的区别</h3><ol><li><p>|| 短路或:如果第一个条件为 true，则第二个条件不会判断，最终结果为 true，效率高 </p></li><li><p>|  逻辑或:不管第一个条件是否为 true，第二个条件都要判断，效率低</p></li></ol><h4 id="总结：开发中我们基本使用-“短路与或”"><a href="#总结：开发中我们基本使用-“短路与或”" class="headerlink" title="总结：开发中我们基本使用 “短路与或”"></a>总结：开发中我们基本使用 “短路与或”</h4><h2 id="赋值运算符"><a href="#赋值运算符" class="headerlink" title="赋值运算符"></a>赋值运算符</h2><h3 id="分类"><a href="#分类" class="headerlink" title="分类"></a>分类</h3><ul><li><p>  基本赋值运算符 = int a = 10;</p></li><li><p>  复合赋值运算符</p></li></ul><p>  += ，-= ，*= ， /= ，%= 等<br>   a-=b; [等价 a=a-b;]；其他的类似</p><h3 id="特点"><a href="#特点" class="headerlink" title="特点"></a>特点</h3><ol><li><p>运算顺序从右往左 int num= a+b+c;</p></li><li><p>赋值运算符的左边只能是变量,右边可以是变量、表达式、常量值</p><p>int num = 20; int num2= 78 * 34 - 10; int num3 = a;</p></li><li><p>复合赋值运算符等价于下面的效果</p><p>比如:a+=3;等价于 a=a+3; 其他类推</p></li><li><p>复合赋值运算符会进行类型转换。</p><p>byte b = 2; b+=3; b++;</p></li></ol><h2 id="三元运算符"><a href="#三元运算符" class="headerlink" title="三元运算符"></a>三元运算符</h2><h3 id="基本语法"><a href="#基本语法" class="headerlink" title="基本语法"></a>基本语法</h3><p>条件表达式 ? 表达式 1: 表达式 2;</p><p> 运算规则:</p><p>如果条件表达式为 true，运算后的结果是表达式 1; </p><p>如果条件表达式为 false，运算后的结果是表达式 2;</p><h2 id="运算符优先级"><a href="#运算符优先级" class="headerlink" title="运算符优先级"></a>运算符优先级</h2><p><img src="/2021/12/02/java-operator/5.png"></p><h2 id="标识符命名规范"><a href="#标识符命名规范" class="headerlink" title="标识符命名规范"></a>标识符命名规范</h2><p><img src="/2021/12/02/java-operator/6.png"></p><h2 id="关键字"><a href="#关键字" class="headerlink" title="关键字"></a>关键字</h2><p><img src="/2021/12/02/java-operator/7.png"></p><p><img src="/2021/12/02/java-operator/8.png"></p><h2 id="保留字"><a href="#保留字" class="headerlink" title="保留字"></a>保留字</h2><pre class="line-numbers language-java" data-language="java"><code class="language-java"><span class="token class-name">Java</span> 保留字<span class="token operator">:</span>现有 <span class="token class-name">Java</span> 版本尚未使用，但以后版本可能会作为关键字使用。自己命名标识符时要避免使用这些保留 字 byValue、cast、future、 generic、 inner、 operator、 outer、 rest、 <span class="token keyword">var</span> 、 <span class="token keyword">goto</span> 、<span class="token keyword">const</span><span aria-hidden="true" class="line-numbers-rows"><span></span></span></code></pre>]]></content>
+      
+      
+      
+    </entry>
+    
+    
+    
+    <entry>
       <title>Java-variable</title>
       <link href="/2021/11/29/java-variable/"/>
       <url>/2021/11/29/java-variable/</url>
